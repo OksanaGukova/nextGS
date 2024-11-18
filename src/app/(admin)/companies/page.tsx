@@ -1,14 +1,14 @@
+import React from 'react';
 
-import React from 'react'
-import Header from '../components/header'
-import Toolbar from '../components/toolbar';
-import SearchInput from '../components/searchInput';
-import AddCompanyButton from '../components/add-company-button';
-import CompanyTable from '../components/companyTable';
-import CompanyRow from '../components/companyRow';
-import { Status } from '../components/status-label';
+import Toolbar from '../../components/toolbar';
+import SearchInput from '../../components/searchInput';
+import AddCompanyButton from '../../components/add-company-button';
+import CompanyTable from '../../components/companyTable';
+import CompanyRow from '../../components/companyRow';
+import { Status } from '../../components/status-label';
+import Header from '../../components/header';
 
-export interface PageProps{};
+export interface PageProps {}
 
 export default function Page() {
   return (
@@ -31,4 +31,3 @@ export default function Page() {
     </div>
   );
 }
-
